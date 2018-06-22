@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="wrap">
+  <h1 id="title">Preferences - Survey</h1>
+  <div class="page">
+    <p id="description">Let us know your favorite preferences</p>
+    <form action="post" id="survey-form">       
+      <div class="row flex">
+        <div class="column">
+            <label id="name-label" for="name">Name:</label><br/>
+            <input type="text" id="name" name="name" required placeholder="Enter your Name">
+        </div>
+        <div class="column">
+            <label id="email-label" for="email">Email:</label><br/>
+            <input type="email" id="email" name="email" required placeholder="Enter your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,10}$" title="Double check your email format. Eg. example@gmail.com">
+        </div>
+        <div class="column">
+          <label id="number-label" for="number">Age:</label><br/>
+            <input type="number" id="number" name="number" required placeholder="Enter your Age" min="1" max="100">
+        </div>
+        </div>
+     
+        
+      <div class="row">
+        <label id="number-label" for="favoritecolor">Pick your favorite color</label><br/>
+        <select id="dropdown" name="dropdown" class="dropdown">
+          <option disabled selected value>Select a color</option>
+          <option  value="red">red</option>
+          <option value="orange">orange</option>
+          <option value="yellow">yellow</option>
+          <option value="green">green</option>
+          <option value="blue">blue</option>
+          <option value="indigo">indigo</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+      <div class="row">
+        <label for="timepreference">When do you prefer to read emails.</label>
+        <ul>
+          <li>
+            <label class="container2">
+              <input name="emailpreference" value="1"  type="radio">Day
+              <span class="checkmark"></span>
+            </label>
+          </li>
+          <li>
+            <label class="container2">
+              <input name="emailpreference" value="2"  type="radio">Evening
+              <span class="checkmark"></span>
+            </label>
+            
+          </li>
+          <li>
+            <label class="container2">
+              <input name="emailpreference" value="3"  type="radio">Night
+              <span class="checkmark"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+      <label for="ilike">
+          Which of the following applies to you? I like:
+        
+      </label>
+       
+        <ul>
+          <li>
+            <label class="container">
+              <input name="prefer" value="dogs" type="checkbox">Dogs
+              <span class="checkmark"></span>
+            </label>
+          </li>
+          <li>
+            <label class="container">
+              <input name="prefer" value="cows" type="checkbox">Cows
+              <span class="checkmark"></span>
+            </label>
+          </li>
+          <li>
+            <label class="container">
+              <input name="prefer" value="pigs" type="checkbox">Pigs
+              <span class="checkmark"></span>
+            </label>
+          </li>
+          <li>
+            <label class="container">
+              <input name="prefer" value="rabits" type="checkbox">Rabits
+              <span class="checkmark"></span>
+            </label>
+          </li>
+              <li>
+                <label class="container">
+                  <input name="prefer" value="bats" type="checkbox">Bats
+                  <span class="checkmark"></span>
+                </label>
+
+              </li>
+              <li>
+                <label class="container">
+                  <input name="prefer" value="monekeys" type="checkbox">Monkeys
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              </ul>
+        </div>
+      <div class="row" style="border:none;">
+         <label for="ilike">
+           Any additional comments you would like to add?
+        </label>
+          <textarea placeholder="Add your comments here"></textarea>
+      
+        
+      </div>
+      <button id="submit" type="submit">Submit</button>  
+    </form>
+  </div>
+  
+  
+</div>
+</body>
+
+</html>
