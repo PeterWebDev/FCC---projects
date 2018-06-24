@@ -12,7 +12,6 @@ function featureLoop(i) {
       setTimeout(function () { featureLoop(i); }, 500);
     }
 }
-
 featureLoop(length);
 })();
 

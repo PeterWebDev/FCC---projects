@@ -17,8 +17,8 @@
 	<header id="header">
 		<nav id="nav-bar" class="nav-bar">
 			<div class="nav-wrap">
-				<a id="Lheader" class="nav-link" href="#header">
-				<img src="img/logosmall.svg" id="header-img" width="46" height="46" /><span class="home">Home</span></a><a id="Lfeatures" class="nav-link" href="#features">
+				<a id="Lheader" class="nav-link buttonpressnull" href="#header">
+				<img src="img/logosmall.svg" id="header-img" width="46" height="46" /><span class="home">Home</span></a><a id="Lfeatures" class="nav-link" href="#featuresAnchor">
 					<i class="fas fa-briefcase"></i>
 					Features
 				</a><a id="LPricing" class="nav-link" href="#Pricing">
@@ -37,7 +37,7 @@
 			<h1>Linux Web Hosting</h1>
 			<h2>Fast, Reliable, Cheap</h2>
 		</div>
-		
+		<div id="featuresAnchor"/>
 		<div id="features" class="feature-box border-none slidein-box">
 			<div class="feature-img">
 				<i class="fas fa-rocket"></i>

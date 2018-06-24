@@ -10,11 +10,11 @@ html{
 }
 
 
- * #features:target::before, * #Pricing:target::before, * #tryForFree:target::before{
+ * #featuresAnchor:target::before{
    display: block;
    content: "";
-   margin-top: -50px;
-   height: 50px;
+   margin-top: -55px;
+   height: 55px;
    visibility: hidden;
 }
 
@@ -65,13 +65,18 @@ h2{
   .nav-bar a:hover, .nav-bar a:active, .nav-bar a:focus, .nav-bar a:target{
     background-color:#8671D0;
   }
+
   .nav-bar a:first-child:hover, .nav-bar a:first-child:active, .nav-bar a:first-child:focus{
     background-color:#443295;
   }
 
-  .buttonpress{
+   .buttonpress{
     background-color:#8671D0;
   }
+   .buttonpressnull{
+    background-color:#443295;
+  }
+
   .nav-bar a, .nav-bar a:link, .nav-bar a:visited, .nav-bar a:active, .nav-bar a:hover {
   color:#ffffff;
   text-decoration: none;
