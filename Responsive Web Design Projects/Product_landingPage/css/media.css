@@ -93,10 +93,12 @@
 		width:100%;
 	}
 
-	/*
+	
 	div.price + div.price {
 	  margin-left:0rem;
 	  margin-top:1.5rem;
 	}
-	*/
+	#form input[type="email"]{
+	  width:80%;
+	}
  }

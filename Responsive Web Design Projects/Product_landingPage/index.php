@@ -132,9 +132,9 @@
 				</div>
 			</div>
 		</div>
-		<iframe id="video" width="100%" src="https://www.youtube-nocookie.com/embed/gyGUhwtdbhI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		
-	<main>
+		<iframe class="slidein-box" id="video" width="100%" src="https://www.youtube-nocookie.com/embed/gyGUhwtdbhI?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<div class="footer-offset"/>
+	</main>
  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>		
  <script src="js/index.js"></script>
 </body>
