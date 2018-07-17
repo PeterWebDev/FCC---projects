@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Documentation</title>
+  <link href="https://fonts.googleapis.com/css?family=Open-Sans" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Domine|Montserrat" rel="stylesheet">
+
+  
+	<link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
+	<link rel="stylesheet" href="css/normalize.css">
+ <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/media.css">
+
+  
+</head>
+
+<body>
+  <div class="wrap">
+    <nav id="navbar">
+        <a id="menu" href="#navTarget">
+          <i class="fas fa-bars"></i>
+        </a>
+        <div id="navTarget" class="navigation">
+
+          <header id="main-title"><a class="nav-link" href="#navbar"><h1>HTML<br class="hide"/> Documentation</h1></a></header>
+          <a class="nav-link" href="#Introduction">Introduction</a>
+          <a class="nav-link" href="#Syntax">Syntax</a>
+          <a class="nav-link" href="#HTML_Page">HTML Page</a>
+          
+          <a class="nav-link" href="#HTML5">HTML5</a>
+          <a class="nav-link" href="#Advance_HTML">Advance HTML</a>
+        </div>
+    </nav>
+    <main id="main-doc">
+        
+        <section id="Introduction" class="main-section">
+          <header><h2>Introduction</h2></header>
+
+          <h3>What is HTML</h3>
+          <p>HTML stands for Hyper Text Markup Language, It is the building blocks that describes and labels the page using tags.</p>
+          <p>The HTML tags itself doesn't show up in the webpages e.g</p>
+          <code>
+           &lt;h1&gt;Hello World!&lt;/h1&gt;
+          </code>
+          <p>will show</p>
+          <code><b>Hello World!</b></code>
+        </section>
+        <section id="Syntax" class="main-section">
+           <header><h2>Syntax</h2></header>
+           <h3>Tags</h3>
+              <p>The tags in HTML is use to define and add styles to content that is inside it. Some example of tag uses are</p>
+          <ul>
+            <li><code>&lt;h1&gt;&lt;/h1&gt;</code> - Declares and styles heading 1</li>
+            <li><code>&lt;b&gt;&lt;/b&gt;</code> - Makes the text bold</li>
+            
+            <li><code>&lt;i&gt;&lt;/i&gt;</code> - makes the text italic</li>
+            <li><code>&lt;p&gt;&lt;/p&gt;</code> - used to represent paragraphs</li>
+          </ul>
+          <p>As you may have noticed every that has a open tag and a end tag, end tag are repsented with a '/'</p>
+        </section>
+        <section id="HTML_Page" class="main-section">
+            <header><h2>HTML Page</h2></header> 
+
+            <h3>Mandatory tags</h3>
+            <p>You will see that all HTML pages will contain the following tags</p>
+            <code class="block">
+              &#160;&#160;&lt;!DOCTYPE html&gt;<br/>
+                &#160;&#160;&lt;html&gt;<br/>
+                  &#160;&#160;&#160;&lt;head&gt;<br/>
+                      &#160;&#160;&#160;&#160;&lt;title&gt;Page Title&lt;/title&gt;<br/>
+                  &#160;&#160;&#160;&lt;/head&gt;<br/>
+                  &#160;&#160;&#160;&lt;body&gt;<br/>
+                  &#160;&#160;&#160;&lt;/body&gt;<br/>
+                &#160;&lt;/html&gt;<br/>
+            </code>
+            <ul>
+              <li><code>&lt;!DOCTYPE HTML&gt;</code> - defines the page to be HTML5</li>
+              <li><code>&lt;html&gt;</code> - This is the root of the page and all other tags goes inside it.</li>
+              <li><code>&lt;head&gt;</code> - meta information is placed inside.</li>
+              <li><code>&lt;title&gt;</code> - Defines the title for the page</li>
+            </ul>
+        </section>
+        <section id="HTML5" class="main-section">
+             <header><h2>HTML5</h2></header>
+
+             <h3>HTML5 Tags</h3>
+            <p>Here are some HTML5 classes</p>
+            <ul>
+              <li><code>&lt;article&gt;</code> - use to define an aricle</li>
+              <li><code>&lt;section&gt;</code> - use to define a section</li>
+              <li><code>&lt;header&gt;</code> - se to define a header</li>
+            </ul>
+        </section>
+        <section id="Advance_HTML" class="main-section">
+             <header><h2>Advance HTML</h2></header>
+
+             <h3>Conditional Statments</h3>
+            <p>Below are some conditional statments that targets specific versions of Internet Explorer</p>
+            <ul>
+              <li><code>&lt;!--[if IE 6&gt;</code></li>
+              <li><code>&lt;!--[if IE 7&gt;</code></li>
+              <li><code>&lt;!--[if IE 8&gt;</code></li>
+              <li><code>&lt;!--[if IE 9&gt;</code></li>
+            </ul>
+            <p>The video tag is a HTML tag that lets us embed a video on to the page</p>
+            <code>&lt;video&gt;</code><br/><br/>
+
+        </section>
+    </main>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script  src="js/index.js"></script>
+ </div>   
+
+
+
+</body>
+
+</html>

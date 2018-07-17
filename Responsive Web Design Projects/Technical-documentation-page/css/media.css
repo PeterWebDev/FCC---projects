@@ -1,0 +1,88 @@
+
+@media (min-width: 1800px) {
+
+ }
+@media (min-width: 980px) and (max-width: 1200px) { 
+	
+}
+
+@media (min-width: 768px) and (max-width: 979px) { 
+
+}
+ 
+@media (max-width: 767px) { 
+	.wrap{
+		flex-wrap: wrap;
+
+	}
+	#Introduction{
+		padding-top:3rem;
+	}
+	nav{
+	flex:0 0 100%;
+	border-right:1px solid #386BA8; 
+	background-color:#386BA8; 
+	}
+	nav header{
+		padding:0rem 1rem;
+	}
+
+	.navigation{
+		background-color:#6699CC;
+		top:0rem;
+
+	   display: none;
+	}
+
+
+	.hide{display: none;}
+	.bufferspace{padding: 0;}
+
+	#menu{
+		background-color:#6699CC;
+		
+		display: block;
+		position:fixed;
+		border-radius:3px; 
+		cursor:pointer;
+		top:0;
+		z-index: 10;
+	}
+	#navTarget{
+		border-radius:3px; 	
+	}
+	#menu i{
+		font-size:2rem;
+		padding:1rem;
+	}
+
+	#navTarget{
+		padding-top:2.8rem;
+	}
+
+
+	#navTarget.openMenu {
+	  display: block;
+	}
+	nav a:first-child:hover {
+		animation:none;
+	}
+	nav a:first-child:hover {
+		animation:none;
+	}
+	.navselected:first-child{
+	background-color:none; 
+		border-left:none;
+}
+	 * #Introduction:target::before, * #Syntax:target::before, * #HTML_Page:target::before, * #Common_Tags:target::before , * #HTML5:target::before{ 
+		  display: block; 
+		  content: " "; 
+		  margin-top: -50px; 
+		  height: 50px; 
+		  visibility: hidden; 
+		}
+ }
+
+@media (max-width: 480px) { 
+
+ }
